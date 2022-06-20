@@ -3,7 +3,8 @@
 
 ![Setu Deep Puple](https://setu-design.s3.amazonaws.com/public-assets/vscode-themes/setu-deep-purple.webp)
 
-### For more information
-* [Microsite](https://opensource.setu.co/)
+Still in beta, but do try it out and raise issues, please.
+
+Checkout our [microsite](https://opensource.setu.co/).
 
 **Enjoy!**
