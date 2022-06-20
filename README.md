@@ -5,6 +5,6 @@
 
 Still in beta, but do try it out and raise issues, please.
 
-Checkout our [microsite](https://opensource.setu.co/).
+Check out the [microsite](https://opensource.setu.co/).
 
 **Enjoy!**
