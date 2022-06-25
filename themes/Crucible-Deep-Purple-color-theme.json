@@ -5,12 +5,15 @@
     "listOfColours" : {
         "Deep Purple" : "#20014b",
         "Deep Purple lightest" : "#f0e5ff",
+
         "Button primary" : "#6003e2",
         "Button secondary" : "#4b02b0",
+
         "Deep Purple mid 1" : "#974efd",
         "Deep Purple mid 2" : "#6803f3",
         "Deep Purple mid 3" : "#5903d1",
         "Deep Purple darker" : "#120129",
+
         "Borders" : "#3d028e",
 
         "Flash Turk" : "#42cacd",
@@ -30,7 +33,7 @@
         "60% opacity" : "99",
         "40% opacity" : "66",
         "20% opacity" : "33",
-        "10% opacity" : "1a",
+        "10% opacity" : "1a"
     },
 
     "colors": {

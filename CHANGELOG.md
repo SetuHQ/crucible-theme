@@ -1,5 +1,8 @@
 # Changelog
 
+### 0.8.9
+- Update README
+
 ### 0.8.8
 - Add debugging icon colours
 - Fix debugging toolbar colours

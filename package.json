@@ -1,5 +1,5 @@
 {
-    "name": "crucible-deep-purple",
+    "name": "crucible-theme",
     "displayName": "Crucible Theme",
     "description": "A contrast-y, meticulously crafted VSCode dark theme based on Setu’s primary brand colour",
     "icon": "images/crucible-icon.png",
@@ -31,10 +31,16 @@
         "blue",
         "indigo",
         "purple",
-        "deep"
+        "deep",
+        "turquoise"
     ],
     "contributes": {
         "themes": [
+            {
+                "label": "Crucible — Flash Turk",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Crucible-Flash-Turk-color-theme.json"
+            },
             {
                 "label": "Crucible — Deep Purple",
                 "uiTheme": "vs-dark",
