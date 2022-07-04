@@ -1,15 +1,15 @@
 {
     "name": "crucible-theme",
     "displayName": "Crucible Theme",
-    "description": "A contrast-y, meticulously crafted VSCode dark theme based on Setu’s primary brand colour",
+    "description": "A meticulously crafted set of dark themes for VSCode based on Setu’s brand colours",
     "icon": "images/crucible-icon.png",
     "publisher": "SetuDesign",
-    "version": "0.8.8",
+    "version": "0.11.2",
     "author": {
         "name": "Sujan Sundareswaran",
         "email": "sujan.sundareswaran@gmail.com"
     },
-    "homepage" : "https://opensource.setu.co/crucible-theme/deep-purple",
+    "homepage" : "https://opensource.setu.co/crucible-theme/",
     "repository": {
         "type": "git",
         "url": "https://github.com/SetuHQ/crucible-theme"
