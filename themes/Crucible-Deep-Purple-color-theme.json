@@ -182,6 +182,9 @@
         "window.inactiveBorder": "#120129",
     },
     "tokenColors": [
+        ///////////////////////////////////////////////////
+        // COMMON
+        ///////////////////////////////////////////////////
         {
             "name": "Comment",
             "scope": [
@@ -190,7 +193,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#6803f3"
+                "foreground": "#7a1cfc"
             }
         },
         {
@@ -483,6 +486,13 @@
 
 
 
+
+
+
+
+        ///////////////////////////////////////////////////
+        // CSS
+        ///////////////////////////////////////////////////
         {
             "name": "CSS Class and Support",
             "scope": [
@@ -564,6 +574,135 @@
             }
         },
 
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // GOLANG
+        ///////////////////////////////////////////////////
+        {
+            "name": "Go - Source",
+            "scope": [
+                "source.go",
+            ],
+            "settings": {
+                "foreground": "#ffcb6b"
+            }
+        },
+        {
+            "name": "Go - import",
+            "scope": [
+                "entity.name.import.go",
+            ],
+            "settings": {
+                "foreground": "#c3e88d"
+            }
+        },
+        {
+            "name": "Go - Entity name",
+            "scope": [
+                "entity.name.type.go",
+            ],
+            "settings": {
+                "foreground": "#f07178"
+            }
+        },
+        {
+            "name": "Go - Entity name",
+            "scope": [
+                "punctuation.definition.begin.bracket.curly.go",
+                "punctuation.definition.end.bracket.curly.go",
+                "punctuation.definition.begin.bracket.round.go",
+                "punctuation.definition.end.bracket.round.go",
+            ],
+            "settings": {
+                "foreground": "#b077ff"
+            }
+        },
+        {
+            "name": "Go - Keyword control",
+            "scope": [
+                "keyword.control.go",
+            ],
+            "settings": {
+                "foreground": "#ff5370"
+            }
+        },
+        {
+            "name": "Go - Keyword type",
+            "scope": [
+                "keyword.type.go",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#16bc77"
+            }
+        },
+        {
+            "name": "Go - Keyword type",
+            "scope": [
+                "keyword.function.go",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#1482ff"
+            }
+        },
+        {
+            "name": "Go - Keyword type",
+            "scope": [
+                "entity.name.package.go",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#3794ff"
+            }
+        },
+        {
+            "name": "Go - Keyword type",
+            "scope": [
+                "constant.other.placeholder.go",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#b2ccd6"
+            }
+        },
+        {
+            "name": "Go - Keyword type",
+            "scope": [
+                "variable.other.assignment.go",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#1482ff"
+            }
+        },
+        {
+            "name": "Go - Keyword type",
+            "scope": [
+                "keyword.const.go",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#ff5370"
+            }
+        },
+
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // HASKELL
+        ///////////////////////////////////////////////////
         {
             "name": "Haskell - Preprocessor",
             "scope": [
@@ -611,6 +750,16 @@
             }
         },
 
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // JAVA
+        ///////////////////////////////////////////////////
         {
             "name": "Java - Object",
             "scope": [
@@ -675,6 +824,16 @@
             }
         },
 
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // JAVASCRIPT
+        ///////////////////////////////////////////////////
         {
             "name": "JS - Variable",
             "scope": [
@@ -723,6 +882,16 @@
             }
         },
 
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // JSON
+        ///////////////////////////////////////////////////
         {
             "name": "JSON - Property name",
             "scope": [
@@ -815,6 +984,15 @@
         },
 
 
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // KOTLIN
+        ///////////////////////////////////////////////////
         {
             "name": "Kotlin - Source",
             "scope": [
@@ -835,6 +1013,16 @@
             }
         },
 
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // MARKDOWN
+        ///////////////////////////////////////////////////
         {
             "name": "Markdown - Plain",
             "scope": [
@@ -1017,6 +1205,17 @@
                 "foreground": "#ffcb6b"
             }
         },
+
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // MARKUP
+        ///////////////////////////////////////////////////
         {
             "name": "Markup - Italic",
             "scope": [
@@ -1092,6 +1291,15 @@
         },
 
 
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // PHP
+        ///////////////////////////////////////////////////
         {
             "name": "PHP - Class",
             "scope": [
@@ -1182,6 +1390,15 @@
         },
 
 
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // PYTHON
+        ///////////////////////////////////////////////////
         {
             "name": "Python - Variable",
             "scope": [
@@ -1280,36 +1497,127 @@
         },
 
 
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // RUBY
+        ///////////////////////////////////////////////////
         {
-            "name": "Ruby - Variable",
+            "name": "Ruby - Source",
             "scope": [
-                "variable.other.ruby"
+                "source.ruby"
             ],
             "settings": {
-                "fontStyle": "bold",
-                "foreground": "#ffc022"
+                "foreground": "#82aaff"
             }
         },
         {
-            "name": "Ruby - Instance",
+            "name": "Ruby - Variable instance",
             "scope": [
                 "variable.other.readwrite.instance.ruby"
             ],
             "settings": {
-                "foreground": "#16bc77"
+                "foreground": "#ffcb6b"
             }
         },
         {
-            "name": "Ruby - Variable",
+            "name": "Ruby - Variable other",
+            "scope": [
+                "variable.other.ruby"
+            ],
+            "settings": {
+                "foreground": "#82aaff"
+            }
+        },
+        {
+            "name": "Ruby - Constant",
             "scope": [
                 "variable.other.constant.ruby"
+            ],
+            "settings": {
+                "foreground": "#f07178"
+            }
+        },
+        {
+            "name": "Ruby - Function",
+            "scope": [
+                "entity.name.function.ruby"
+            ],
+            "settings": {
+                "foreground": "#b077ff"
+            }
+        },
+        {
+            "name": "Ruby - Keyword",
+            "scope": [
+                "keyword.control.ruby"
+            ],
+            "settings": {
+                "foreground": "#f05656"
+            }
+        },
+        {
+            "name": "Ruby - Class",
+            "scope": [
+                "support.class.ruby"
             ],
             "settings": {
                 "foreground": "#1482ff"
             }
         },
+        {
+            "name": "Ruby - Block variable",
+            "scope": [
+                "variable.other.block.ruby"
+            ],
+            "settings": {
+                "foreground": "#b077ff"
+            }
+        },
+        {
+            "name": "Ruby - Argument separators",
+            "scope": [
+                "punctuation.separator.arguments.ruby"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#f05656"
+            }
+        },
+        {
+            "name": "Ruby - Pseudo method",
+            "scope": [
+                "keyword.control.pseudo-method.ruby"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#16bc77"
+            }
+        },
+        {
+            "name": "Ruby - Embedded line",
+            "scope": [
+                "meta.embedded.line.ruby"
+            ],
+            "settings": {
+                "foreground": "#ffcb6b"
+            }
+        },
 
 
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // SCALA
+        ///////////////////////////////////////////////////
         {
             "name": "Scala",
             "scope": [
@@ -1328,8 +1636,17 @@
                 "foreground": "#16bc77"
             }
         },
-        
-        
+
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // SHELL
+        ///////////////////////////////////////////////////
         {
             "name": "Shell - If blocks",
             "scope": [
@@ -1354,8 +1671,7 @@
                 "meta.scope.group.shell"
             ],
             "settings": {
-                "fontStyle": "bold",
-                "foreground": "#ff5370"
+                "foreground": "#82aaff"
             }
         },
         {
@@ -1378,8 +1694,54 @@
                 "foreground": "#1482ff"
             }
         },
-        
-        
+        {
+            "name": "Shell - Variable",
+            "scope": [
+                "meta.scope.case-pattern.shell"
+            ],
+            "settings": {
+                "foreground": "#ffc022"
+            }
+        },
+        {
+            "name": "Shell - Keyword control",
+            "scope": [
+                "keyword.control.shell"
+            ],
+            "settings": {
+                "foreground": "#ff5370"
+            }
+        },
+        {
+            "name": "Shell - Function name",
+            "scope": [
+                "entity.name.function.shell"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#16bc77"
+            }
+        },
+        {
+            "name": "Shell - Positional variable",
+            "scope": [
+                "variable.other.positional.shell"
+            ],
+            "settings": {
+                "foreground": "#f07178"
+            }
+        },
+
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // SQL
+        ///////////////////////////////////////////////////
         {
             "name": "SQL - Database name",
             "scope": [
@@ -1426,8 +1788,17 @@
                 "fontStyle": "bold"
             }
         },
-        
-        
+
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////
+        // TYPESCRIPT
+        ///////////////////////////////////////////////////
         {
             "name": "Typescript - Variable",
             "scope": [
@@ -1512,16 +1883,5 @@
                 "foreground": "#1482ff"
             }
         },
-
-
-
-
-
-
-
-
-
-
-
     ]
 }

@@ -1,7 +1,19 @@
 # Changelog
 
+### 0.12.3
+- **Deep Purple** — Tweak comment colour
+
+### 0.12.2
+- **Deep Purple** — Tweak Shell tokens
+
+### 0.12.1
+-  **Flash Turk** — Fix debug toolbar visibility bug for Flash Turk
+
+### 0.12.0
+-  **Deep Purple** and **Flash Turk** — Add support for GoLang tokens
+
 ### 0.11.2
-- Tweak colours for Typescript and Typescript React
+- **Deep Purple** and **Flash Turk** — Tweak colours for Typescript and Typescript React
 
 ### 0.11.1
 - Tweak colours for Shell

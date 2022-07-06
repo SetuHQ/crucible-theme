@@ -52,7 +52,7 @@
         "checkbox.foreground": "#42cacd",
         "checkbox.border": "#238486",
 
-        "debugToolBar.background": "#6ad5d8",
+        "debugToolBar.background": "#1c696b",
         "debugIcon.restartForeground": "#16bc77",
         "debugIcon.disconnectForeground": "#fd4e4e",
         "debugIcon.continueForeground": "#ffc022",
@@ -539,10 +539,6 @@
 
 
 
-
-
-
-
         ///////////////////////////////////////////////////
         // CPP
         ///////////////////////////////////////////////////
@@ -594,8 +590,6 @@
                 "foreground": "#ff5370"
             }
         },
-
-
 
 
 
@@ -656,6 +650,126 @@
 
 
 
+
+        ///////////////////////////////////////////////////
+        // GO LANG
+        ///////////////////////////////////////////////////
+        {
+            "name": "Go - Source",
+            "scope": [
+                "source.go",
+            ],
+            "settings": {
+                "foreground": "#ffcb6b"
+            }
+        },
+        {
+            "name": "Go - import",
+            "scope": [
+                "entity.name.import.go",
+            ],
+            "settings": {
+                "foreground": "#c3e88d"
+            }
+        },
+        {
+            "name": "Go - Entity name",
+            "scope": [
+                "entity.name.type.go",
+            ],
+            "settings": {
+                "foreground": "#f07178"
+            }
+        },
+        {
+            "name": "Go - Entity name",
+            "scope": [
+                "punctuation.definition.begin.bracket.curly.go",
+                "punctuation.definition.end.bracket.curly.go",
+                "punctuation.definition.begin.bracket.round.go",
+                "punctuation.definition.end.bracket.round.go",
+            ],
+            "settings": {
+                "foreground": "#b077ff"
+            }
+        },
+        {
+            "name": "Go - Keyword control",
+            "scope": [
+                "keyword.control.go",
+            ],
+            "settings": {
+                "foreground": "#ff5370"
+            }
+        },
+        {
+            "name": "Go - Keyword type",
+            "scope": [
+                "keyword.type.go",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#16bc77"
+            }
+        },
+        {
+            "name": "Go - Keyword type",
+            "scope": [
+                "keyword.function.go",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#1482ff"
+            }
+        },
+        {
+            "name": "Go - Keyword type",
+            "scope": [
+                "entity.name.package.go",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#3794ff"
+            }
+        },
+        {
+            "name": "Go - Keyword type",
+            "scope": [
+                "constant.other.placeholder.go",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#b2ccd6"
+            }
+        },
+        {
+            "name": "Go - Keyword type",
+            "scope": [
+                "variable.other.assignment.go",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#1482ff"
+            }
+        },
+        {
+            "name": "Go - Keyword type",
+            "scope": [
+                "keyword.const.go",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#ff5370"
+            }
+        },
+
+
+
+
+
+
+
+
         ///////////////////////////////////////////////////
         // HTML
         ///////////////////////////////////////////////////
@@ -688,6 +802,13 @@
                 "foreground": "#ffcb6b"
             }
         },
+
+
+
+
+
+
+
 
         ///////////////////////////////////////////////////
         // JSON
@@ -778,6 +899,9 @@
 
 
 
+
+
+
         ///////////////////////////////////////////////////
         // JAVA
         ///////////////////////////////////////////////////
@@ -836,6 +960,11 @@
                 "foreground": "#c3e88d"
             }
         },
+
+
+
+
+
 
 
 
@@ -932,10 +1061,12 @@
         },
 
 
-        
-        
-        
-        
+
+
+
+
+
+
         ///////////////////////////////////////////////////
         // MARKDOWN
         ///////////////////////////////////////////////////
@@ -1081,7 +1212,14 @@
                 "foreground": "#65737e"
             }
         },
-        
+
+
+
+
+
+
+
+
         ///////////////////////////////////////////////////
         // MARKUP
         ///////////////////////////////////////////////////
@@ -1176,7 +1314,14 @@
                 "foreground": "#eeffff"
             }
         },
-        
+
+
+
+
+
+
+
+
         ///////////////////////////////////////////////////
         // PHP
         ///////////////////////////////////////////////////
@@ -1234,6 +1379,8 @@
 
 
 
+
+
         ///////////////////////////////////////////////////
         // PYTHON
         ///////////////////////////////////////////////////
@@ -1253,9 +1400,19 @@
 
 
 
+
         ///////////////////////////////////////////////////
         // RUBY
         ///////////////////////////////////////////////////
+        {
+            "name": "Ruby - Source",
+            "scope": [
+                "source.ruby"
+            ],
+            "settings": {
+                "foreground": "#82aaff"
+            }
+        },
         {
             "name": "Ruby - Variable instance",
             "scope": [
@@ -1308,6 +1465,44 @@
             ],
             "settings": {
                 "foreground": "#1482ff"
+            }
+        },
+        {
+            "name": "Ruby - Block variable",
+            "scope": [
+                "variable.other.block.ruby"
+            ],
+            "settings": {
+                "foreground": "#b077ff"
+            }
+        },
+        {
+            "name": "Ruby - Argument separators",
+            "scope": [
+                "punctuation.separator.arguments.ruby"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#f05656"
+            }
+        },
+        {
+            "name": "Ruby - Pseudo method",
+            "scope": [
+                "keyword.control.pseudo-method.ruby"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#16bc77"
+            }
+        },
+        {
+            "name": "Ruby - Embedded line",
+            "scope": [
+                "meta.embedded.line.ruby"
+            ],
+            "settings": {
+                "foreground": "#ffcb6b"
             }
         },
 
@@ -1655,6 +1850,8 @@
                 "foreground": "#c3e88d"
             }
         },
+
+
 
 
 
