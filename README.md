@@ -11,6 +11,6 @@
 
 Still in beta, but do try it out and raise issues, please.
 
-Check out the [microsite](https://opensource.setu.co/crucible-theme).
+Check out the [microsite](https://opensource.setu.co/design/crucible-theme).
 
 **Enjoy!**
