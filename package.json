@@ -37,6 +37,11 @@
     "contributes": {
         "themes": [
             {
+                "label": "Crucible — Faded Ming",
+                "uiTheme": "vs",
+                "path": "./themes/Crucible-Faded-Ming-color-theme.json"
+            },
+            {
                 "label": "Crucible — Flash Turk",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Crucible-Flash-Turk-color-theme.json"
